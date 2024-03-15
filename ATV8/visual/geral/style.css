@@ -1,0 +1,227 @@
+h4{
+    color: white;
+    background-color: blue;
+    width: fit-content;
+    border-radius: 10cm;
+}
+#Robo {
+    display: flex;
+    margin: 10px;
+    background-color: lightblue;
+    width: 70%;
+    border-radius: 10px;
+}
+.Pedidos{
+    background-color: lightblue;
+    justify-content: space-around;
+    width: 30%;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px;
+}
+.Texto1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 20px;
+    img{
+        width: 30px;
+        height: auto;
+    }
+}
+#Primeira {
+    display: flex;
+}
+.Texto2 {
+    margin-left: 20px;
+    margin-top: 50px;
+    font-size: larger;
+    text-align: center;
+    p{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+         color: white;
+         background-color: blue;
+         width: fit-content;
+         border-radius: 50px;
+     }
+}
+#Processando{
+    color: white;
+    background-color: green;
+    width: fit-content;
+    block-size: auto;
+    border-radius: 10cm;    
+}
+#Análise{
+    color: white;
+    background-color: rgb(175, 175, 48);
+    width: fit-content;
+    block-size: auto;
+    border-radius: 10cm;    
+}
+.status,.dados {
+    display: flex;
+    justify-content: space-around;
+}
+#VerT {
+    margin-left: 50%;
+}
+.d {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    border-radius: 50px;
+}
+#Recusado{
+    color: white;
+    background-color:red;
+    width: fit-content;
+    block-size: auto;
+    border-radius: 50px;
+}
+#seta {
+    display: flex;
+    
+}
+#Segunda {
+    display: flex;
+}
+.uCompras {
+    background-color: lightblue;
+    width: 70%;
+    margin: 10px;
+}
+.Mensagens {
+    background-color: lightblue;
+    width: 30%;
+    margin: 10px;
+    border-radius: 15px;
+}
+#Terceira {
+    display: flex;
+}
+.Status {
+    background-color: lightblue;
+    width: 70%;
+    margin: 10px;
+    header {
+        display: flex;
+        h5 {
+            margin-left: 70%;
+        }
+    }
+}
+.Transacoes {
+    background-color: lightblue;
+    width: 30%;
+    margin: 10px;
+    header {
+        display: flex;
+        h5 {
+            margin-left: 30%;
+        }
+    }
+}
+.uCompras {
+    header {
+        margin: 10px;
+        display: flex;
+        color: rgb(0, 0, 255)
+    }
+    h5 {
+        margin-left: 70%;
+    }
+}
+
+#ultimas {
+    display:flex;
+    margin: center;
+    text-align: center;
+    margin-left: 400px;
+    div {
+        background-color: white;
+        border-radius: 10px;
+        margin: 5px
+    }
+}
+
+.imgs {
+    max-width: 100px;
+}
+
+#TitulosMensagem {
+    display:flex;
+    justify-content: space-around;
+}
+
+#VerTM {
+    margin-right: 50%;  
+}
+#Caderno {
+    margin-right: 4px;
+}
+#TitulosMensagens {
+    display: flex;
+    
+}
+#Vertodas {
+    margin-left: 40%;
+}
+
+#clienteFoto {
+    padding: 10px;
+    margin: 5px;
+}
+
+.Mensagem1234{
+    display: flex;
+    background-color: white;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.ABR {
+    display:flex;
+    text-align: center;
+}
+
+#DataABR {
+    margin-left: 300px;
+}
+.linhaHR {
+    display: flex;
+    justify-content: space-around;
+}
+.ColunaHR{
+    display: flex;
+    background-color: white;
+    margin: 5px;
+    border-radius: 15px;
+}
+.HRHR {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 300px;
+    hr {
+        width: 200px;
+    }
+}
+.hrRequisicao, .hrVendedor {
+    border-color: green;
+}
+.hrCotacao {
+    border-color: yellow
+}
+.poGR {
+    border-color: blue;
+}
+
+#tran {
+    display:flex;
+    margin: center;
+    text-align: center;
+    margin-left: 40px;
+    div {
+        background-color: white;
+        border-radius: 10px;
+        margin: 5px
+    }
+}
