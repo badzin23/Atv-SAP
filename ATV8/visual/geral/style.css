@@ -1,6 +1,6 @@
 h4{
     color: white;
-    background-color: blue;
+    background-color: #1916ca;
     width: fit-content;
     border-radius: 10cm;
 }
@@ -22,6 +22,7 @@ h4{
 .Texto1 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-left: 20px;
+    color: #1916ca;
     img{
         width: 30px;
         height: auto;
@@ -30,19 +31,32 @@ h4{
 #Primeira {
     display: flex;
 }
-.Texto2 {
-    margin-left: 20px;
-    margin-top: 50px;
-    font-size: larger;
-    text-align: center;
-    p{
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-         color: white;
-         background-color: blue;
-         width: fit-content;
-         border-radius: 50px;
-     }
+
+.Botoes {
+    margin-left: 300px;
+    padding: 45px;
+    justify-content: space-around;
 }
+
+.botao-index {
+    background-color: #1916ca;
+    color: white;
+    border-radius: 10px;
+    padding: 1%;
+    width: 300px;
+    height: 35px;
+    border: 0;
+    font-size: 230;
+    justify-content: space-around;
+}
+
+.seta-index {
+    border: 0;
+    border-radius: 100%;
+    color: #1916ca;
+    background-color: white;
+}
+
 #Processando{
     color: white;
     background-color: green;
@@ -77,8 +91,16 @@ h4{
     block-size: auto;
     border-radius: 50px;
 }
-#seta {
-    display: flex;
+.seta {
+    background-color: #1916ca;
+    color: white;
+    border-radius: 10px;
+    padding: 1%;
+    width: 100px;
+    height: 20px;
+    border: 0;
+    font-size: 230;
+    justify-content: space-around;
     
 }
 #Segunda {
@@ -135,7 +157,7 @@ h4{
     display:flex;
     margin: center;
     text-align: center;
-    margin-left: 400px;
+    margin-left: 280px;
     div {
         background-color: white;
         border-radius: 10px;
@@ -200,8 +222,10 @@ h4{
     display: flex;
     justify-content: space-around;
     margin-left: 300px;
+    padding: 10px;
     hr {
         width: 200px;
+        
     }
 }
 .hrRequisicao, .hrVendedor {
