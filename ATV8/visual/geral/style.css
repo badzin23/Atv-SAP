@@ -21,19 +21,27 @@ h4{
 }
 .Texto1 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 160%;
     margin-left: 20px;
+    padding: 10px;
     color: #1916ca;
     img{
         width: 30px;
         height: auto;
     }
 }
-#Primeira {
+
+#Ola {
+    height: 2%;
+}   
+ 
+
+#Primeira { 
     display: flex;
 }
 
 .Botoes {
-    margin-left: 300px;
+    margin-left: 14%;
     padding: 45px;
     justify-content: space-around;
 }
@@ -43,7 +51,7 @@ h4{
     color: white;
     border-radius: 10px;
     padding: 1%;
-    width: 300px;
+    width: 250px;
     height: 35px;
     border: 0;
     font-size: 230;
@@ -74,15 +82,23 @@ h4{
 .status,.dados {
     display: flex;
     justify-content: space-around;
+    margin: 3px;
 }
+
+.status{
+    color:#1916ca;
+}
+
 #VerT {
-    margin-left: 50%;
+    margin-left: 35%;
+    color:#0a57e6;
 }
 .d {
     display: flex;
     justify-content: space-around;
     background-color: white;
     border-radius: 50px;
+    font-weight: bold;
 }
 #Recusado{
     color: white;
@@ -91,6 +107,7 @@ h4{
     block-size: auto;
     border-radius: 50px;
 }
+
 .seta {
     background-color: #1916ca;
     color: white;
@@ -121,6 +138,7 @@ h4{
     display: flex;
 }
 .Status {
+    border-radius: 15px;
     background-color: lightblue;
     width: 70%;
     margin: 10px;
@@ -135,6 +153,7 @@ h4{
     background-color: lightblue;
     width: 30%;
     margin: 10px;
+    border-radius: 15px;
     header {
         display: flex;
         h5 {
@@ -143,6 +162,7 @@ h4{
     }
 }
 .uCompras {
+    border-radius: 20px;
     header {
         margin: 10px;
         display: flex;
@@ -151,13 +171,14 @@ h4{
     h5 {
         margin-left: 70%;
     }
+    
 }
 
 #ultimas {
     display:flex;
     margin: center;
     text-align: center;
-    margin-left: 280px;
+    margin-left: 12%;
     div {
         background-color: white;
         border-radius: 10px;
@@ -176,17 +197,87 @@ h4{
 
 #VerTM {
     margin-right: 50%;  
+    color:#0a57e6
 }
 #Caderno {
     margin-right: 4px;
 }
 #TitulosMensagens {
+    padding: 2%;
     display: flex;
     
 }
 #Vertodas {
-    margin-left: 40%;
+    margin-left: 33%;
+    color:#0a57e6
 }
+
+#Produtos {
+    width: 12%;
+}
+
+.BotaoMenorIndex {
+    height: 20px;
+    border: 0;
+    border-radius: 100%;
+    color: #1916ca;
+    background-color: white;
+    margin: 16px;
+}
+
+.BotaoMenorIndex2 {
+    height: 20px;
+    border: 0;
+    border-radius: 100%;
+    color: #1916ca;
+    background-color: white;
+    margin-top: 30px;
+    left: 50px;
+}
+
+.BotaoMenorUltimas1 {
+    height: 30px;
+    border: 0;
+    border-radius: 100%;
+    color: #1916ca;
+    position: relative;
+    top: 120px;
+    right: 10%;
+    font-size: 20px;
+}
+
+.BotaoMenorUltimas2 {
+    height: 30px;
+    border: 0;
+    border-radius: 100%;
+    color: #1916ca;
+    position: relative;
+    top: 123px;
+    left: 14%;
+    font-size: 20px;
+}
+
+.opcoes {
+    height: 20px;
+    width: 20px;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    left: 45%;
+    top: 15%;
+  }
+
+  .opcoes1 {
+    height: 20px;
+    width: 20px;
+    background-color: #0a57e6;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    left: 45%;
+    top: 15%;
+  } 
 
 #clienteFoto {
     padding: 10px;
@@ -208,6 +299,39 @@ h4{
 #DataABR {
     margin-left: 300px;
 }
+
+#BaseadoUltimas {
+    color:#1916ca;
+    padding: 10px;
+    width: 300px;
+}
+
+#rec {
+    padding: 2px;
+    color:#0a57e6;
+    margin-right: 10px;
+    
+}
+
+#AlertasEM {
+    color:#1916ca;
+}
+
+#NumerosP { 
+    padding: 7px;
+}
+
+#StatusTitulo {
+    padding: 6px;
+    color:#1916ca;
+}
+
+#StatusVer {
+    margin-left: 60%;
+    padding: 6px;
+    color:#0a57e6;
+}
+
 .linhaHR {
     display: flex;
     justify-content: space-around;
@@ -220,32 +344,90 @@ h4{
 }
 .HRHR {
     display: flex;
-    justify-content: space-around;
-    margin-left: 300px;
+    justify-content: space-between;
+    margin-left: 40px;
     padding: 10px;
     hr {
         width: 200px;
         
     }
 }
-.hrRequisicao, .hrVendedor {
-    border-color: green;
+
+.Check {
+    color: aliceblue;
+    border-radius: 50%;
+    background-color:green;
+    width: 33px;
+    height: 33px;
+    text-align: center;
+    font-size: 10px;
 }
+
+.Thema {
+    color: aliceblue;
+    border-radius: 50%;
+    background-color:rgba(255, 187, 0, 0.699);
+    width: 33px;
+    height: 33px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.Variacao {
+    border: 100px;
+    color: whitesmoke;
+    border-radius: 50%;
+    background-color:#1916ca;
+    width: 33px;
+    height: 33px;
+    text-align: center;
+    font-size: 12px;
+    border-color: #1916ca;
+
+    }
+
+#UmHR {
+    height: 5px;
+    background-color: #1916ca;
+    border: none;
+}
+
+.hrRequisicao, .hrVendedor {
+    height: 5px;
+    background-color: green;
+    border: none;
+}
+    
+
+.hrRequisicao{ 
+    height: 5px;
+    background-color: green;
+    border: none;
+
+}
+
 .hrCotacao {
-    border-color: yellow
+    height: 5px;
+    background-color: #1916ca;
+    border: none;
 }
 .poGR {
-    border-color: blue;
+    height: 5px;
+    background-color: #1916ca;
+    border: none;
 }
 
 #tran {
     display:flex;
     margin: center;
     text-align: center;
-    margin-left: 40px;
+    margin-left: 20%;
+    height: 55%;
+
     div {
         background-color: white;
         border-radius: 10px;
-        margin: 5px
+        margin: 5px;
+        width: 25%;
     }
 }
