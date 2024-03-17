@@ -431,3 +431,15 @@ h4{
         width: 25%;
     }
 }
+#guia{
+    img,p{
+        display: inline-block
+     }
+     h1{
+        background-color: rgb(170, 170, 170);
+        font-size: 30px;
+     }
+}
+#amarelo{
+    background-color: yellow;
+}
