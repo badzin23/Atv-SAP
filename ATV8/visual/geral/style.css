@@ -500,11 +500,6 @@ h4{
     }
 }
 
-#PrimeiraMetade {
-    /*display:flex;*/
-}
-
-
 #Navigation {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: #f8f4f4;
@@ -514,7 +509,7 @@ h4{
 
 #Repositorio {
     position:relative;
-    top:1px;
+    top:5px;
     right:10%;
     padding:14px;
 }
@@ -522,7 +517,8 @@ h4{
 #NavigationTitle {
     position:relative;
     padding:5px;
-    top: 8px;
+    top: 2px;
+    font-size: 30px;
 }
 
 #PastaFoto {
@@ -578,6 +574,13 @@ h4{
     background-color: #dcdcdc;
 }
 
+#qVazio2 {
+    border: 1px solid #000;
+    border: fit-content;
+    width: 10%;
+    background-color: #44acf1;
+}
+
 #Page {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border: 1px solid #000;
@@ -586,13 +589,31 @@ h4{
     background-color: #dcdcdc;
 }
 
+#ConteudoPage {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 1px solid #000;
+    border: fit-content;
+    width: 50%;
+    background-color: #f8f4f4;
+}
+
+#ConteudoPage2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 1px solid #000;
+    border: fit-content;
+    width: 50%;
+    background-color: #abd6f385;
+}
+
 #quadrados {
     height: 40%;
 }
 
 #linha1 {
-    display:flex
+    display:flex;
+    text-align:center;
 }
+
 
 #BotaoUltimo {
     position: relative;
@@ -621,7 +642,7 @@ h4{
     }
 }
 #ContainerTriangulodois{
-    font-size:0
+    font-size:0;
 }
 
 #triangulodois {
