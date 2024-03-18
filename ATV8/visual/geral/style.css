@@ -500,6 +500,11 @@ h4{
     }
 }
 
+#PrimeiraMetade {
+    /*display:flex;*/
+}
+
+
 #Navigation {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: #f8f4f4;
@@ -517,7 +522,7 @@ h4{
 #NavigationTitle {
     position:relative;
     padding:5px;
-    top:3px;
+    top: 8px;
 }
 
 #PastaFoto {
@@ -558,11 +563,35 @@ h4{
 #NavigationSubtitulo {
     display:flex;
     margin: 2px;
+    background-color: #dcdcdc;
     P {
         padding: 2px;
         font-size: 15px;
     }
+    
+}
 
+#qVazio {
+    border: 1px solid #000;
+    border: fit-content;
+    width: 10%;
+    background-color: #dcdcdc;
+}
+
+#Page {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 1px solid #000;
+    border: fit-content;
+    width: 50%;
+    background-color: #dcdcdc;
+}
+
+#quadrados {
+    height: 40%;
+}
+
+#linha1 {
+    display:flex
 }
 
 #BotaoUltimo {
@@ -570,4 +599,48 @@ h4{
     left: 44%;
     display:flex;
     margin: 2px;
+    
+}
+#overpage{
+    margin-top: -20px;
+    position: relative;
+    margin-left:27%;
+    margin-bottom: 50%;
+
+}
+#toolbar{
+    display: flex;
+    margin-left:45%;
+    margin-top: -960px;
+}
+#OverpagePedaco{ 
+    background-color: white;
+    img{
+        margin-left: 25%;
+        
+    }
+}
+#ContainerTriangulodois{
+    font-size:0
+}
+
+#triangulodois {
+    margin-top: -35px;
+    margin-left: 32%;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent; /* Lado esquerdo transparente */
+    border-right: 5px solid transparent; /* Lado direito transparente */
+    border-bottom: 5px solid #44acf1; /* Base do triângulo*/
+    display: inline-block;
+}
+
+#setaNave {
+    margin-top: -30px;
+    margin:0;
+    padding: 0;
+    height: 5px;
+    border: none;
+    background-color:#44acf1;
+    width: 100%;
 }
