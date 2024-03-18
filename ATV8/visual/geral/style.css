@@ -65,6 +65,14 @@ h4{
     background-color: white;
 }
 
+.seta-indexDois {
+    border: 0;
+    border-radius: 100%;
+    color: #1916ca;
+    background-color: white;
+    z-index: 1;
+}
+
 #Processando{
     color: white;
     background-color: green;
@@ -382,7 +390,6 @@ h4{
     height: 33px;
     text-align: center;
     font-size: 12px;
-    border-color: #1916ca;
 
     }
 
@@ -431,15 +438,136 @@ h4{
         width: 25%;
     }
 }
-#guia{
-    img,p{
-        display: inline-block
-     }
-     h1{
-        background-color: rgb(170, 170, 170);
-        font-size: 30px;
-     }
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+#bodyTela1 {
+    background-color: #dcdcdc;
+    * { 
+        margin:0;
+        padding:0;
+    }
+    
 }
-#amarelo{
-    background-color: yellow;
+
+#HrTitulo { 
+    height: 20px;
+    background: url('../imagens/BarraTela1.png.jpg') center;
+    border: none;
+}
+
+#HeaderTela1 {
+    text-align: left;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 180%;
+    background-color: #dcdcdc;
+    padding: 5px;
+    font-weight: bold;
+    color: #4b4a4a;
+}
+
+#BarraBotoes {
+    text-align: left;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #e70000;
+    padding: 5px;
+    display:flex;
+    color:#383737cb;
+   
+
+    p {
+       padding: 3px; 
+    }
+}
+
+#BotoesTema1 {
+
+    display:flex;
+    justify-content: space-around;
+    margin: 2px;
+    P {
+        padding: 2px;
+    }
+}
+
+#BotoesTema2 {
+
+    border-color: rgb(95, 202, 245);
+    display:flex;
+    justify-content: space-around;
+    margin: 2px;
+    P {
+        padding: 2px;
+    }
+}
+
+#Navigation {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #f8f4f4;
+    width: 25%;
+    
+}
+
+#Repositorio {
+    position:relative;
+    top:1px;
+    right:10%;
+    padding:14px;
+}
+
+#NavigationTitle {
+    position:relative;
+    padding:5px;
+    top:3px;
+}
+
+#PastaFoto {
+    top:2px;
+    position:relative;
+    left: 7%;
+    padding:13px;
+}
+
+#ContainerTriangulo{
+    font-size:0
+}
+
+#triangulo {
+    margin-left: 19%;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent; /* Lado esquerdo transparente */
+    border-right: 5px solid transparent; /* Lado direito transparente */
+    border-bottom: 5px solid #44acf1; /* Base do triângulo*/
+    display: inline-block;
+}
+
+#setaNav {
+    margin:0;
+    padding: 0;
+    height: 5px;
+    border: none;
+    background-color:#44acf1;
+    width: 100%;
+}
+
+#headerNavigation {
+    display: flex;
+    justify-content: space-around;
+}
+
+#NavigationSubtitulo {
+    display:flex;
+    margin: 2px;
+    P {
+        padding: 2px;
+        font-size: 15px;
+    }
+
+}
+
+#BotaoUltimo {
+    position: relative;
+    left: 44%;
+    display:flex;
+    margin: 2px;
 }
