@@ -575,7 +575,7 @@ h4{
 }
 
 #qVazio2 {
-    border: 1px solid #000;
+    border: 1px solid #979797;
     border: fit-content;
     width: 10%;
     background-color: #44acf1;
@@ -583,7 +583,7 @@ h4{
 
 #Page {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    border: 1px solid #000;
+    border: 1px solid #979797;
     border: fit-content;
     width: 50%;
     background-color: #dcdcdc;
@@ -591,7 +591,7 @@ h4{
 
 #ConteudoPage {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    border: 1px solid #000;
+    border: 1px solid #979797;
     border: fit-content;
     width: 50%;
     background-color: #f8f4f4;
@@ -599,7 +599,7 @@ h4{
 
 #ConteudoPage2 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    border: 1px solid #000;
+    border: 1px solid #979797;
     border: fit-content;
     width: 50%;
     background-color: #abd6f385;
@@ -613,8 +613,6 @@ h4{
     display:flex;
     text-align:center;
 }
-
-
 #BotaoUltimo {
     position: relative;
     left: 44%;
@@ -623,31 +621,45 @@ h4{
     
 }
 #overpage{
-    margin-top: -20px;
     position: relative;
-    margin-left:27%;
-    margin-bottom: 50%;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    left:10%;
+    padding:5px;
+}
+
+#setinhaOverview {
+    height:20px;
+    margin-top:15px;
+    margin-left:25px;
+}
+
+#toolbar{
+    position:relative;
+    left:15%;
+    top:5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#wire {
+    position:relative;
+    left:20%;
+    top:5px;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
-#toolbar{
-    display: flex;
-    margin-left:45%;
-    margin-top: -960px;
-}
 #OverpagePedaco{ 
-    background-color: white;
-    img{
-        margin-left: 25%;
-        
-    }
+    display: flex; 
+    margin-right:55%;
 }
+
 #ContainerTriangulodois{
     font-size:0;
 }
 
 #triangulodois {
     margin-top: -35px;
-    margin-left: 32%;
+    margin-left: 20%;
     width: 0;
     height: 0;
     border-left: 5px solid transparent; /* Lado esquerdo transparente */
@@ -664,4 +676,103 @@ h4{
     border: none;
     background-color:#44acf1;
     width: 100%;
+}
+
+#setaBranca { 
+    margin-top: -30px;
+    margin:0;
+    padding: 0;
+    height: 25px;
+    border: none;
+    background-color:#fffbfb;
+    width: 100%;
+}
+
+#ImagemQuadrado { 
+    position: relative;
+    left:2px;
+    top:1px;
+    padding:1px;
+}
+
+#ImagemVerde { 
+    position: relative;
+    left:2px;
+    top:1px;
+    padding:1px;
+}
+
+#PrimeiraMetade {
+    display: flex;
+}
+#Overview {
+    margin-top: 45px;
+    
+}
+#Linhabotao{
+    display: flex;
+}
+#ConfigureUI {
+    margin-left: 930px;
+    display:flex;
+    P {
+        padding: 3px;
+    }
+}
+#ConteudoPagegray {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 1px solid;
+    border: fit-content;
+    width: 50%;
+    background-color: #dcdcdc;;
+}
+#CabecalhoAtributos {
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    button {
+        width: 100px;
+    }
+}
+#finalflags {
+    margin-left: 540px;
+}
+#qVazio3 {
+    border: 1px solid #979797;
+    border: fit-content;
+    width: 10%;
+}
+#hrazul {
+    border: none;
+    height: 2px;
+    background-color: #44acf1;
+}
+#informacoes {
+    display: flex;
+    justify-content: space-around;
+    p {
+        font-size: 20px
+    };
+    button {
+        width: 300px;
+        height: 17px;
+    }
+}
+#informacoes1 {
+    display: flex;
+}
+#ConteudoPage2gray {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 1px solid #979797;
+    border: fit-content;
+    width: 50%;
+    background-color: #abd6f385;
+}
+#alinharbotao {
+    display: grid;
+    text-align: left;
+}
+#Atributos {
+    background-color: white;
 }
